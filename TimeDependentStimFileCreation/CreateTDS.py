@@ -10,7 +10,7 @@ import argparse
 
 def lineout(frame, time, c1=0, c2=0, c3=0, c4=0):
     """Create output line"""
-    return "{frame},{time:.2g},{c1:.2g},{c2:.2g},{c3:.2g},{c4:.2g}\n".format(frame=frame, time=time, c1=c1, c2=c2, c3=c3, c4=c4)
+    return "{frame},{time:.2f},{c1:.2f},{c2:.2f},{c3:.2f},{c4:.2f}\n".format(frame=frame, time=time, c1=c1, c2=c2, c3=c3, c4=c4)
 
 def main():
     # Parse cmdline arguments
@@ -24,7 +24,7 @@ def main():
     with open(infilename) as infile, open(outfilename, 'w') as outfile:
         # Create output header
         headers = ["","Time [s]","Channel 1","Channel 2","Channel 3","Channel 4"]
-        outfile.write(",".join(headers))
+        outfile.write(",".join(headers)+"\n")
 
         # Get fps from input file
         fps = float(infile.readline())
