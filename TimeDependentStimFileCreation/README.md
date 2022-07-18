@@ -31,7 +31,7 @@ Requires an input file and an output path to run
     Header line: FPS
     Normal line: start_time length intensity
 
-### Example file:
+### Example Input file:
 ```
 50
 30    0.5  100
