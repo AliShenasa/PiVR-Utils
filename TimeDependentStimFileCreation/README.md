@@ -22,6 +22,7 @@ Unzip the file
 To run use: 
 
 ```cd path\to\PiVR-Utils\TimeDependentStimFileCreation```
+
 ```python CreateTDS.py -i path\to\inputfile -o path\to\outputfile```
 
 Requires an input file and an output path to run
