@@ -2,12 +2,29 @@
 
 Creates Time Dependent Stim file for PiVr
 
-Requires an input file and an output path to run
+## How to install
+
+Clone the repository
+
+<img src="README_pics/CloneRepo.png" width="50%">
+
+Open the download
+
+![Click Downloaded file](README_pics/OpenDownload.png)
+
+Unzip the file
+
+<img src="README_pics/ExtractRepo.png" width="50%">
+
 
 ## How to use
+
 To run use: 
 
+```cd path\to\PiVR-Utils\TimeDependentStimFileCreation```
 ```python CreateTDS.py -i path\to\inputfile -o path\to\outputfile```
+
+Requires an input file and an output path to run
 
 ### Input file format:
     Header line: FPS
