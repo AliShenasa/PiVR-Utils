@@ -1,6 +1,6 @@
 # CreateTDS.py
 
-Creates Time Dependent Stim file for PiVr
+Creates Time Dependent Stim file for PiVr https://pivr.readthedocs.io/en/latest/
 
 ## How to install
 
